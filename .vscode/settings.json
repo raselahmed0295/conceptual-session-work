@@ -1,0 +1,6 @@
+{
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.inlineSuggest.showToolbar": "onHover",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": true
+}

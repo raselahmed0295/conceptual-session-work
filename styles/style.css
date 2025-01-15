@@ -1,0 +1,48 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.hero{
+    background-image: url("../images/cow.jpg");
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 49% 100%, 49% 100%, 0 73%);
+}
+.hero h1{
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.essay, .image-section{
+    width: 80%;
+    margin: 60px auto;
+    padding: 100px;
+    background-image: linear-gradient(45deg, pink, rgb(165, 165, 255));
+}
+.essay h2, .image-section h2{
+    text-align: center;
+    border-bottom: 4px solid yellow;
+    font-size: 4rem;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.essay p{
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: justify;
+
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.img-container .image img{
+    width: 300px;
+}
